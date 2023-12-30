@@ -61,11 +61,12 @@ const quotes = [
   },
 ];
 
+// Exclusive to maximum in range
 function getRandomFromRange(min, max) {
-  // Exclusive to maximum in range
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
+// To wait for animations to end
 function yield(ms) {
   return new Promise(resolve => {
     setTimeout(resolve, ms);
