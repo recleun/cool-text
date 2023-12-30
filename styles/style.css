@@ -22,8 +22,16 @@ body {
   text-align: center;
   text-shadow: 1px 1px 15px white;
   display: flex;
+  gap: 10px;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
+}
+
+.author {
+  color: darkgray;
+  width: 100%;
+  text-align: end;
 }
 
 .button-container {
