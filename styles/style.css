@@ -26,6 +26,11 @@ body {
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  transition: opacity 1s ease-in-out;
+}
+
+.text-container.fade {
+  opacity: 0;
 }
 
 .author {
