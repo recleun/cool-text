@@ -86,6 +86,7 @@ nextButton.addEventListener('click', function() {
     while (quoteIndex == lastQuoteIndex) {
       quoteIndex = getRandomFromRange(0, quotes.length);
     }
+    lastQuoteIndex = quoteIndex;
     textContainer.classList.toggle('fade');
     yield(1000).then(() => {
       quoteText.textContent = quotes[quoteIndex].quote;
