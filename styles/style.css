@@ -41,7 +41,7 @@ body {
   align-content: center;
 }
 
-span.next {
+div.next {
   margin-right: 25px;
   margin-bottom: 10px;
   text-shadow: 1px 1px 15px white;
