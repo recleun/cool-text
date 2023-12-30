@@ -17,7 +17,7 @@ body {
 }
 
 .text-container {
-  width: 30vw;
+  width: 40vw;
   height: 95vh;
   text-align: center;
   text-shadow: 1px 1px 15px white;
@@ -46,4 +46,5 @@ div.next {
   margin-bottom: 10px;
   text-shadow: 1px 1px 15px white;
   cursor: pointer;
+  user-select: none;
 }
