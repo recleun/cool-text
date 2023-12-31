@@ -52,4 +52,9 @@ div.next {
   text-shadow: 1px 1px 15px white;
   cursor: pointer;
   user-select: none;
+  transition: all .2s ease-in-out;
+}
+
+div.next:hover {
+  color: darkgray;
 }
